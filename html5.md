@@ -22,3 +22,9 @@ LISTS
 ordered lists 
 
 unordered lists
+
+span is something you want to go back into
+div seperates the text 
+
+cd frontEndNotes/ to get back into the folder and feature that you want to get to 
+
