@@ -28,3 +28,4 @@ div seperates the text
 
 cd frontEndNotes/ to get back into the folder and feature that you want to get to 
 
+attributes are always defined in the open tag
