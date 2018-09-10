@@ -29,3 +29,19 @@ div seperates the text
 cd frontEndNotes/ to get back into the folder and feature that you want to get to 
 
 attributes are always defined in the open tag
+
+<h2 style="color:red">Summary</h2> to change color of font
+
+   <label for="MJ">MJ</label>                           for using RADIO buttons
+    <input type="radio" id="MJ" placeholder="MJ">
+    <label for="LBJ">LBJ</label>
+    <input type="radio" id="LBJ" placeholder="LBJ">
+    <label for="KB">KB</label>
+    <input type="radio" id="KB" placeholder="KB">
+
+   <label for="FavPlayer">Who is Your Favorite Player?</label>                   for DROPDOWNS
+        <select name="FavPlayer" id="FavPlayer">
+            <option value="MJ">MJ</option>  
+            <option value="LBJ">LBJ</option>
+            <option value="KB">KB</option>
+        </select>
