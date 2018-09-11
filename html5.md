@@ -61,3 +61,5 @@ attributes are always defined in the open tag
         <input type="search" name="search" id="search"> <br><br>
 
         ctrl+c   is for returning  back to terminal
+
+<th style="background-color: red">Player Name</th>      TO CHANGE COLOR OF BACKGROUND
