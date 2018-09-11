@@ -59,3 +59,5 @@ attributes are always defined in the open tag
 
 <label for="search">Search</label>                                          TO INSERT A SEARCH FIELD
         <input type="search" name="search" id="search"> <br><br>
+
+        ctrl+c   is for returning  back to terminal
