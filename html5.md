@@ -45,3 +45,17 @@ attributes are always defined in the open tag
             <option value="LBJ">LBJ</option>
             <option value="KB">KB</option>
         </select>
+
+<label for="Thoughts">What are your thoughts on this discussion?</label>    FOR A TEXT BOX 
+ <textarea name="Thoughts" id="Thoughts"></textarea><br><br>
+
+<label for="Color">Color</label>
+        <input type="Color" name="Color" id="Color"><br><br>       FOR USER TO PICK A COLOR
+
+ <label for="resume">Upload your resume</label>
+        <input type="file" name="resume" id="resume" multiple><br><br>       FOR USER BEING ABLE TO UPLOAD A FILE OR FILES
+
+<input type="range" min="1" max="10" step="1">    TO INSERT A RANGE BAR
+
+<label for="search">Search</label>                                          TO INSERT A SEARCH FIELD
+        <input type="search" name="search" id="search"> <br><br>
