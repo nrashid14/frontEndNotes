@@ -13,41 +13,55 @@
     <h1>Register</h1>
 
     <form action="">
-        <label for="firstname">First Name:</label>
-        <input type="text" id="firstname" placeholder="John">
-        <label for="lastname">Last Name:</label>
-        <input type="text" id="lastname" placeholder="Smith">
-        <br><br>
-        <label for="male">Male</label>
-        <input type="radio" id="male" name="Gender" value="GENDER">
-        <label for="female">Female</label>
-        <input type="radio" id="female" name="Gender" value="GENDER">
-        <br><br>
-        <label for="email">Email:</label>
-        <input type="email" id="email" placeholder="your email">
-        <label for="password">Password:</label>
-        <input type="password" id="paswwrod" pattern="(5,8)">
-        <br><br>
-        <p>Birthday:</p>
-        <select name="Month" id="">
-            <option value="Month">Month</option>
-            <option value="Jan">Jan</option>
-            <option value="Feb">Feb</option>
+        <div>
+            <label for="firstname">First Name:</label>
+            <input type="text" id="firstname" placeholder="John">
+            <label for="lastname">Last Name:</label>
+            <input type="text" id="lastname" placeholder="Smith">
+            <br><br>
+        </div>
+        <div>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="Gender" value="GENDER">
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="Gender" value="GENDER">
+            <label for="other">Other</label>
+            <input type="radio" id="other" name="Gender" value="GENDER">
+            <br><br>
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required placeholder="your email">
+            <label for="password">Password:</label>
+            <input type="password" required id="password" pattern=".{5,10}" title="Password must be between 5 to 10 characters">
+            <br><br>
+        </div>
+        <div>
+            <label for="">
+            Birthday:
+            <select name="Month" id="">
+                <option value="Month" disabled selected>Month</option>
+                <option value="Jan">Jan</option>
+                <option value="Feb">Feb</option>
+            </select>
+
+            <select name="Month" id="">
+                <option value="Day" disabled selected>Day</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
             </select>
             <select name="Month" id="">
-                <option value="Month">Day</option>
-                <option value="Jan">11</option>
-                <option value="Feb">12</option>
-                </select>
-                <select name="Month" id="">
-                    <option value="Month">Year</option>
-                    <option value="Jan">2014</option>
-                    <option value="Feb">2012</option>
-                </select>
-                <br><br>
-                <label for="Terms">I agree to the terms and conditions</label>
-                <input type="checkbox">
-                <button>Submit</button>
+                <option value="Year" disabled selected>Year</option>
+                <option value="2014">2014</option>
+                <option value="2012">2012</option>
+            </select>
+        </label>
+            <br><br>
+        </div>
+
+        <label for="Terms">I agree to the terms and conditions</label>
+        <input type="checkbox">
+        <button>Submit</button>
 
     </form>
 </body>

@@ -82,3 +82,6 @@ attributes are always defined in the open tag
 
 <body style="text-align:center">                                            ALIGNS TEXT
 
+  <option value="Year" disabled selected>Year</option>    FOR DISABLING AN OPTION AND HAVING AN OPTION SELECTED AS DEFAULT
+
+<input type="password" required id="password" pattern=".{5,10}" title="Password must be between 5 to 10 characters">              REQUIRING 5 TO 10 CHARACTERS AND DISPLAYING A MESSAGE FOR IT
