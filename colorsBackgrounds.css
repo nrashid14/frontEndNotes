@@ -1,0 +1,16 @@
+h1 {
+    color: #ff0000;
+    border-color: purple;
+    border-width: 5px;
+    border-style: outset;
+}
+ 
+h4 {
+    color: rgb(11, 99, 150);
+    background: #0589ee;
+}
+
+body{
+    background-image: url('photo.jpg');
+    background-repeat: no-repeat;
+}
