@@ -1,5 +1,5 @@
 body {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f2f2f2;
     padding: 50px;
     
@@ -40,7 +40,9 @@ li {
 
 .company {
     color: blue;
-    font-size: 20px
+    font-size: 20px;
+    font-weight: lighter;
+    
 }
 
 img {
@@ -51,7 +53,21 @@ img {
     text-align: left;    
 }
 
+
+
+.head {
+    margin: -60px;
+    margin-top: -px;
+    margin-bottom: 10px;
+    background: red;
+    padding-left: inherit;
+    padding-right: inherit;
+}
+
 .heading1 {
     font-size: 50px;
-    color: red;
+    color: white;
+    text-align: center;
+    margin: auto;
+    
 }

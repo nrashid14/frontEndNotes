@@ -1,0 +1,17 @@
+p {
+    width: 50%;
+}
+.first {
+    border-width: 2px;
+    border-style: solid;
+    border-color: blue;
+    border: 2px solid blue;
+}
+
+.second {
+    border: 8px solid green;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}

@@ -1,0 +1,30 @@
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2em;
+    font-weight: lighter;
+    line-height: 1.5;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+body {
+    font-size: 10px;
+}
+
+span {
+    font-size: 2rem;
+}
+
+.first {
+    text-decoration: underline;
+}
+
+.second {
+    text-decoration: overline;
+    text-decoration-color: blue;
+    
+}
