@@ -1,0 +1,17 @@
+p {
+    font-family: 'Trade Winds', cursive;
+    font-size: 50px;
+    margin: 1.6667%;
+    border-bottom: 5px solid black;
+    text-align: center
+}
+
+img {
+    width: 30%;
+    margin: 1.666667%;
+    float:left;
+}
+
+body {
+    
+}
