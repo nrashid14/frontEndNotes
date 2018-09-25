@@ -2,7 +2,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f2f2f2;
     padding: 50px;
-    
+    font-size: 15px
 }
 
 h1 {
@@ -12,7 +12,7 @@ h1 {
 }
 
 h2 {
-    color: maroon;
+    color: red;
 }
 
 section {
@@ -24,7 +24,8 @@ section {
 }
 
 .dates {
-    color: turquoise;
+    color: blue;
+    padding-left: 80%
 }
 
 h2:hover{
@@ -41,33 +42,45 @@ li {
 
 .company {
     color: blue;
-    font-size: 20px;
-    font-weight: lighter;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     float:right;
     
 }
 
-img {
-    width: 20px;
-}
-
 .basic {
-    text-align: left;    
+    text-align: left;
+    padding-left: 80%;
+    font-size: 15px;
+    padding-top: 2%
+
 }
-
-
 
 .head {
     margin: -60px;
-    margin-top: -px;
     margin-bottom: 10px;
     background: red;
-    padding-left: inherit;
-    padding-right: inherit;
+    padding-left: ;
+    padding-right: ;
     border-bottom: 5px solid black;
 }
 
 .heading1 {
     font-size: 50px;
-    color: white;    
+    color: #f2f2f2;    
+    padding-left: 5%;
+}
+
+i {
+    width: 10px;
+    padding-right: 10px;
+    padding-bottom: 5%
+}
+
+h2 {
+    padding-left: 5%;
+}
+
+.interests {
+    
 }
