@@ -1,0 +1,143 @@
+html { 
+    background: url(./background.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  }
+
+.prof-pic{
+    border-radius: 50%;
+    height: 200px;
+}
+
+.prof-box {
+    width: 500px;
+    height: inherit;
+    background: rgba(0, 0, 0, .4);
+    padding: 40px;
+    color: white;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 100;
+    letter-spacing: 6;
+    font-size: 50px;
+    color: gold;
+}
+h5 {
+    font-size: 20px;
+    color: coral;
+}
+
+.prof-info {
+    font-weight: 200;
+    letter-spacing: 1;
+}
+
+.social-icons {
+    font-size: 50px;
+    
+}
+
+.social-icons a {
+    color: white;
+}
+
+.line-break {
+    width: 325px;
+    margin: 0 auto;
+    border-top: 1px solid white;
+}
+
+
+
+.prof-summary {
+    width: inherit;
+    height: inherit;
+    background: rgba(0, 0, 0, .4);
+    padding: 40px;
+    color: white;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.summary-info {
+    font-weight: 200;
+    letter-spacing: 1;
+    font-size: 20px;
+}
+
+.prof-skills {
+    width: inherit;
+    height: inherit;
+    background: rgba(0, 0, 0, .4);
+    padding: 40px;
+    color: white;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.skills-info {
+    font-weight: 200;
+    letter-spacing: 1;
+    font-size: 20px;
+}
+
+H2 {
+    font-weight: 800;
+    letter-spacing: 10;
+    font-size: 50px;
+    color: coral;
+}
+
+ul {
+    text-align: left;    
+}
+
+.prof-experience {
+    width: inherit;
+    height: inherit;
+    background: rgba(0, 0, 0, .4);
+    padding: 40px;
+    color: white;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.experience-info {
+    font-weight: 200;
+    letter-spacing: 1;
+    font-size: 20px;
+}
+
+.dates {
+    color: gold;
+}
+
+.prof-interests {
+    width: inherit;
+    height: inherit;
+    background: rgba(0, 0, 0, .4);
+    padding: 40px;
+    color: white;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.interests-info {
+    color: gold;
+}
+
+.comp-name {
+    font-weight: 800;
+    color: red;
+}

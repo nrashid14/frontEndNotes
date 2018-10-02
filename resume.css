@@ -2,7 +2,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f2f2f2;
     padding: 50px;
-    font-size: 15px
+    font-size: 15px;
 }
 
 h1 {
@@ -71,6 +71,10 @@ li {
     padding-left: 5%;
 }
 
+.basic:hover {
+    color: white;
+}
+
 i {
     width: 10px;
     padding-right: 10px;
@@ -83,4 +87,7 @@ h2 {
 
 img {
     width: 50px
+}
+h1:hover {
+    color: black;
 }
