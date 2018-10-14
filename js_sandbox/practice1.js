@@ -13,7 +13,10 @@ let example1 = {
         City: "Chicago",
         State: "IL"
     },
-    Age: 24
+    Age: 24,
+    BirthYear: () => {
+        return 1987
+    }
 };
 console.log(Object.values(example1));
 console.log(Object.keys(example1));
