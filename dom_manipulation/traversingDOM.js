@@ -18,8 +18,8 @@ list.children[1].textContent = 'Hello World';
 val = list.children[3].children[0];
 list.children[3].children[0].id = 'test-link';
 
-val = firstChild;
-val  =list
+val = listItem.nextSibling;
+val = listItem.nextElementSibling.nextElementSibling;
 
 
 
